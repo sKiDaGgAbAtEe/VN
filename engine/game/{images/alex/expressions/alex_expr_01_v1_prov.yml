@@ -1,0 +1,46 @@
+asset_id: "char_alex_expr_01_v1"
+asset_type: "character_expression"
+expression_name: "neutral"
+in_game_ref: "Alex.neutral"
+file: "assets/characters/alex/expressions/alex_expr_01_v1.png"
+ssad_id: "SSAD-VN-AX-EXPR-01"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_alex_base_v1"
+    work_ref: "assets/characters/alex/alex_base_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+
+expression_spec:
+  brows: "relaxed, natural arch, no tension"
+  eyes: "open, warm, direct — present and attentive"
+  mouth: "slight natural curve, closed, not forced"
+  cheeks: "neutral, no flush"
+  special: "halo glows at baseline intensity; star freckle visible under left eye"
+  mood: "The listening face. Soft and present. 'I'm here with you.'"
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ASTRICA-0001"
+  resonance_tags:
+  - "present"
+  - "attentive"
+  - "threshold_character"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

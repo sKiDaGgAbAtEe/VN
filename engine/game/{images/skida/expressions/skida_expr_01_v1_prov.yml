@@ -1,0 +1,46 @@
+asset_id: "char_skida_expr_01_v1"
+asset_type: "character_expression"
+expression_name: "neutral"
+in_game_ref: "Skida.neutral"
+file: "assets/characters/skida/expressions/skida_expr_01_v1.png"
+ssad_id: "SSAD-VN-SKIDA-EXPR-01"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_skida_base_v1"
+    work_ref: "assets/characters/skida/skida_base_v1.png"
+  - role: "portrait_structure"
+    source_type: "master_artist"
+    master_artist_id: "ma_sargent_001"
+
+expression_spec:
+  brows: "relaxed, natural — no tension, just presence"
+  eyes: "open, direct, soft blue — there is depth behind the calm"
+  mouth: "natural rest, slight line — not blank, considered"
+  cheeks: "neutral"
+  special: "hair falls naturally; shirt collar open; this is the default field-anchor look"
+  mood: "I'm here. Not blank — depth behind the stillness."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags:
+  - "field_anchor"
+  - "presence"
+  - "attentive"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

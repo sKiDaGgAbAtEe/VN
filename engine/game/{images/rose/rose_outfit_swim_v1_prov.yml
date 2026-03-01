@@ -1,0 +1,101 @@
+asset_id: "char_rose_swim_v1"
+asset_type: "character_sprite"
+in_game_ref: "Rose.swim.neutral"
+file: "assets/characters/rose/rose_swim_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "VN_scene_sprite_beach"
+
+lineage:
+  - role: "structural_body_reference"
+    source_type: "internal_reference_asset"
+    work_id: "char_rose_body_base_v1"
+    work_title: "Rose Body Base v1"
+    work_ref: "assets/characters/rose/rose_body_base_v1.png"
+    influence_notes: "Swimsuit built over Rose's short, busty, compact mannequin."
+
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_title: "Rose – Self Portrait Bust"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+    influence_notes: "Face, rose hair clip, hair color and length, and choker — swimsuit is a change of context, not character."
+
+  - role: "sprite_alignment_reference"
+    source_type: "internal_sprite"
+    work_id: "char_rose_sweater_v1"
+    work_title: "Rose Sweater Outfit v1"
+    work_ref: "assets/characters/rose/rose_sweater_v1.png"
+    influence_notes: "Same Rose — same head size, posture family, expression language."
+
+  - role: "portrait_mood_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+    work_title: "Girl portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_yumeji_001"
+    influence_notes: "Self-possessed adult woman whose attractiveness emerges from presence, not caricature."
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+    work_title: "Decorative black-and-white illustrations (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_beardsley_001"
+    influence_notes: "Sharp, dark contours of the swimsuit; elegant, slightly gothic lines."
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_whistler_001"
+    work_title: "Nocturnes / seascapes (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_whistler_001"
+    influence_notes: "Mood inspiration for water/sky lighting in beach scenes."
+
+transformations:
+  description: >
+    Beach swimsuit variant of Rose: high-waisted two-piece that embraces her
+    short, busty, adult body as part of her coherent power. Clearly sexy but
+    rooted in self-respect and narrative context.
+  steps:
+    - step: 1
+      summary: "Structured bikini top with wide shoulder straps, firm underbust band. Cup size proportionate to fuller chest; visible cleavage, no extreme push-up or underboob."
+    - step: 2
+      summary: "High-waisted bikini bottom rising to below navel, higher-cut leg openings. Full-to-3/4 back coverage; curves read clearly, no thong."
+    - step: 3
+      summary: "Deep wine-red / black-currant base, black piping, small gold hardware. Subtle rose motif on one hip."
+    - step: 4
+      summary: "Optional sheer sarong tied at one hip for scene modulation."
+    - step: 5
+      summary: "Choker and rose clip kept as deliberate, owned choices. Hair slightly tamed/wind-blown."
+    - step: 6
+      summary: "Default expression: confident, slightly amused — aware of her impact, using it as social toolkit, not apology."
+    - step: 7
+      summary: "Final pass: real fabric weight and stretch, natural curves not hyperinflated, primary visual focus on face and attitude."
+
+soulstamp:
+  id: "SSAD-VN-ROSE-0401"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags: ["beach_scene", "short_and_stacked", "coherently_sexy", "feminine_reverence"]
+  sacred: false
+  intent_summary: >
+    This outfit allows the story to acknowledge Rose's physical hotness as an
+    integrated facet of who she is — not isolating her body as an object.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact Rose and VN creators for any external or commercial use."
+  usage_restrictions: >
+    Not to be reframed in pornographic, fetish, or age-regressive contexts.
+    Camera angles should remain eye-level; poses should emerge from genuine
+    character behavior.
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: "Expression variants may explore flustered, teasing, or introspective moments."

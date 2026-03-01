@@ -1,0 +1,73 @@
+asset_id: "char_skida_hoodie_v1"
+asset_type: "character_sprite"
+in_game_ref: "Skida.hoodie.neutral"
+file: "assets/characters/skida/skida_hoodie_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "VN_scene_sprite"
+
+lineage:
+  - role: "structural_body_reference"
+    source_type: "internal_reference_asset"
+    work_id: "char_skida_body_base_v1"
+    work_title: "Skida Body Base v1"
+    work_ref: "assets/characters/skida/skida_body_base_v1.png"
+    influence_notes: "Hoodie silhouette builds over the compact mannequin — big hoodie reads even bigger on lean frame."
+
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "skida_ref_white_shirt_v0"
+    work_title: "Skida – White Shirt Avatar"
+    work_ref: "concept/skida/skida_white_shirt_v0.png"
+    influence_notes: "Face and blue hair consistent. Hoodie is portable safe-space mode."
+
+  - role: "environment_mood_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_whistler_001"
+    work_title: "Nocturnes (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_whistler_001"
+    influence_notes: "Muted blues and soft interior atmosphere for the warmth-carrying quality of this outfit."
+
+transformations:
+  description: >
+    Big oversized hoodie variant — Skida as a portable safe space. Deep charcoal,
+    muted blue, or forest green. Slim joggers. The hoodie is large enough that
+    it could wrap someone else. That's intentional.
+  steps:
+    - step: 1
+      summary: "Oversized hoodie to mid-hip or lower, roomy hood, wide kangaroo pocket."
+    - step: 2
+      summary: "Deep charcoal / muted blue / forest green — quiet, non-flashy colors."
+    - step: 3
+      summary: "Slim joggers or jeans underneath so silhouette reads relaxed but not shapeless."
+    - step: 4
+      summary: "Expression: softer than baseline — slightly tired, slightly warm. 'Come here if you need to.'"
+    - step: 5
+      summary: "Hood up variant: adds mystery and a sense of him retreating into himself."
+
+soulstamp:
+  id: "SSAD-VN-SKIDA-0301"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead / Character Originator"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags: ["portable_safe_space", "hoodie_mode", "quiet_anchor", "field_holder_offduty"]
+  sacred: false
+  intent_summary: >
+    The hoodie is Skida externalizing his function: a piece of clothing that
+    is literally big enough to wrap someone in. He carries warmth as a
+    material fact.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact creators for external or commercial use."
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: "Hood-up variant can be a separate expression layer or alternate asset_id."

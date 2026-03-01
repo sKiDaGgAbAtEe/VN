@@ -1,0 +1,46 @@
+asset_id: "char_skida_expr_05_v1"
+asset_type: "character_expression"
+expression_name: "tired"
+in_game_ref: "Skida.tired"
+file: "assets/characters/skida/expressions/skida_expr_05_v1.png"
+ssad_id: "SSAD-VN-SKIDA-EXPR-05"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_skida_base_v1"
+    work_ref: "assets/characters/skida/skida_base_v1.png"
+  - role: "portrait_structure"
+    source_type: "master_artist"
+    master_artist_id: "ma_sargent_001"
+
+expression_spec:
+  brows: "level, no tension — just weight"
+  eyes: "slightly drooped at outer corners, blues muted"
+  mouth: "faint wry smile or quiet neutral — he is still showing up"
+  cheeks: "neutral"
+  special: "this is NOT despair — it is weary grace; he has been carrying things and continues"
+  mood: "Still here. Still carrying. Weary grace not defeat."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags:
+  - "weary_grace"
+  - "still_showing_up"
+  - "carrying_the_field"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

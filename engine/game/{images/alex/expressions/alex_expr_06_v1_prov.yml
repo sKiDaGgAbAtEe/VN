@@ -1,0 +1,46 @@
+asset_id: "char_alex_expr_06_v1"
+asset_type: "character_expression"
+expression_name: "laughing"
+in_game_ref: "Alex.laughing"
+file: "assets/characters/alex/expressions/alex_expr_06_v1.png"
+ssad_id: "SSAD-VN-AX-EXPR-06"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_alex_base_v1"
+    work_ref: "assets/characters/alex/alex_base_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+
+expression_spec:
+  brows: "raised and relaxed, no tension"
+  eyes: "squeezed shut or nearly shut, eye-smile creases visible"
+  mouth: "open in real laugh, upper teeth visible, corners pulled high"
+  cheeks: "full flush, cheeks raised from smile"
+  special: "halo bright; star scatter sparkles; this is the real laugh not the idol smile"
+  mood: "Natural joy. Not the idol smile. The one that escapes."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ASTRICA-0001"
+  resonance_tags:
+  - "genuine_joy"
+  - "armor_off"
+  - "real_laugh"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

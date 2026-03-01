@@ -1,0 +1,71 @@
+asset_id: "char_skida_pjs_v1"
+asset_type: "character_sprite"
+in_game_ref: "Skida.pjs.neutral"
+file: "assets/characters/skida/skida_pjs_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "VN_scene_sprite"
+
+lineage:
+  - role: "structural_body_reference"
+    source_type: "internal_reference_asset"
+    work_id: "char_skida_body_base_v1"
+    work_title: "Skida Body Base v1"
+    work_ref: "assets/characters/skida/skida_body_base_v1.png"
+    influence_notes: "PJ silhouette follows the compact, lean mannequin."
+
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "skida_ref_white_shirt_v0"
+    work_title: "Skida – White Shirt Avatar"
+    work_ref: "concept/skida/skida_white_shirt_v0.png"
+    influence_notes: "Face, blue hair, and calm eyes remain consistent. PJs = same person, armor fully off."
+
+  - role: "portrait_structure_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_sargent_001"
+    work_title: "Male portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_sargent_001"
+    influence_notes: "Dignified adult male presence even in soft sleepwear."
+
+transformations:
+  description: >
+    Cozy PJ variant of Skida — off duty, barefoot, relaxed. Soft masculine presence
+    without formality or performance.
+  steps:
+    - step: 1
+      summary: "Soft Henley long-sleeve shirt (2–3 buttons at chest, one undone). Fitted but not tight."
+    - step: 2
+      summary: "Cotton joggers, cuffed at ankles. Heather grey or soft navy base."
+    - step: 3
+      summary: "Barefoot or thick cozy socks — grounded, earthy."
+    - step: 4
+      summary: "Expression: relaxed, present — the face he shows when there's no audience."
+    - step: 5
+      summary: "Lighting and shading tuned for domestic interior warmth."
+
+soulstamp:
+  id: "SSAD-VN-SKIDA-0201"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead / Character Originator"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags: ["cozy_pjs", "off_duty_anchor", "armor_off", "quiet_presence"]
+  sacred: false
+  intent_summary: >
+    Skida in his most unguarded domestic state — still solid, still himself,
+    just without the shirt-rolled-sleeves uniform.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact creators for external or commercial use."
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: null

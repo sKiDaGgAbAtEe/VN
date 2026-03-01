@@ -1,0 +1,91 @@
+asset_id: "char_rose_body_base_v1"
+asset_type: "character_body_reference"
+in_game_ref: null
+file: "assets/characters/rose/rose_body_base_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools:
+    - "AI_image_generator"
+    - "digital_paint"
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "internal_structural_reference_only"
+
+lineage:
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_title: "Rose – Self Portrait Bust"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+    influence_notes: >
+      Head size, facial structure, neck, choker placement, and sweater neckline
+      are aligned with Rose's original art so the mannequin supports accurate
+      outfit and sprite construction.
+
+  - role: "sprite_alignment_reference"
+    source_type: "internal_sprite"
+    work_id: "char_rose_base_v1"
+    work_title: "Rose Base Sprite v1"
+    work_ref: "assets/characters/rose/rose_base_v1.png"
+    influence_notes: >
+      Ensures the mannequin body under the clothes matches the proportions and
+      posture used in the main standing sprite.
+
+  - role: "portrait_mood_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+    work_title: "Girl portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_yumeji_001"
+    influence_notes: >
+      Guides the gentle, introspective emotional tone and soft curves while
+      clearly coding Rose as an adult woman, not a child.
+
+transformations:
+  description: >
+    Neutral, modest body mannequin for Rose: short, busty, clearly adult Filipino woman.
+    Non-nude, non-sexual, designed for structural consistency. She is noticeably
+    bustier than Alex; this is intentional and a narrative talking point.
+  steps:
+    - step: 1
+      summary: "Sketched standing front-view at ~4'10\" / 147cm, compact proportions, grounded relaxed posture."
+    - step: 2
+      summary: "Defined fuller bust, adult ribcage, natural weight and shape. Larger than Alex's, realistic not extreme."
+    - step: 3
+      summary: "Modeled compact soft hourglass: gentle waist, solid hips and thighs for 'tiny powerhouse' energy."
+    - step: 4
+      summary: "Added neutral-tone bandeau top and mid-thigh shorts modesty layer. No lace, no cutouts, no sheer."
+    - step: 5
+      summary: "Adjusted limb lengths and head/body ratio to read clearly as adult, not chibi."
+    - step: 6
+      summary: "Final shading: soft contouring to show structure without eroticizing, neutral studio lighting."
+
+soulstamp:
+  id: "SSAD-VN-ROSE-0002"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags:
+    - "structural_reference"
+    - "nonsexual_body_model"
+    - "tiny_powerhouse_frame"
+    - "bustier_than_alex"
+  sacred: false
+  intent_summary: >
+    This mannequin encodes Rose's true physical presence: a short, busty, adult woman
+    whose body is part of her story, while remaining modest, non-nude, and non-sexual.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Not intended for external release."
+  usage_restrictions: >
+    Internal reference only. Any revealing variants must use separate asset_ids
+    and independent ethical review.
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: >
+    Mark 'INTERNAL ONLY – ROSE BODY BASE'. Update outfits if proportions change.

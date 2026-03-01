@@ -1,0 +1,49 @@
+asset_id: "char_rose_expr_01_v1"
+asset_type: "character_expression"
+expression_name: "neutral"
+in_game_ref: "Rose.neutral"
+file: "assets/characters/rose/expressions/rose_expr_01_v1.png"
+ssad_id: "SSAD-VN-ROSE-EXPR-01"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+  - role: "dark_linework"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+
+expression_spec:
+  brows: "relaxed, one slightly arched — perceptive and knowing"
+  eyes: "half-lidded, sharp focus, amber glow behind glasses"
+  mouth: "small knowing smirk, asymmetric corners"
+  cheeks: "neutral, no flush"
+  special: "glasses catch a light reflection; choker visible; this IS her resting face"
+  mood: "I already know what you're about to say. Calm authority."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags:
+  - "perceptive"
+  - "quiet_authority"
+  - "goth_geek"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

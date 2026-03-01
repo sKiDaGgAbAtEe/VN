@@ -1,0 +1,46 @@
+asset_id: "char_alex_expr_02_v1"
+asset_type: "character_expression"
+expression_name: "happy"
+in_game_ref: "Alex.happy"
+file: "assets/characters/alex/expressions/alex_expr_02_v1.png"
+ssad_id: "SSAD-VN-AX-EXPR-02"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_alex_base_v1"
+    work_ref: "assets/characters/alex/alex_base_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+
+expression_spec:
+  brows: "slightly raised, relaxed — open and lifted"
+  eyes: "curved upward at corners, warm golden glow brightened"
+  mouth: "full genuine smile, teeth optional but natural if present"
+  cheeks: "light flush, subtle rose color"
+  special: "halo visibly brighter; star clips shimmer; star freckle visible"
+  mood: "Warmth that fills the room. Real, not performed. 'This matters to me.'"
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ASTRICA-0001"
+  resonance_tags:
+  - "genuine_joy"
+  - "inner_light_visible"
+  - "community_character"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

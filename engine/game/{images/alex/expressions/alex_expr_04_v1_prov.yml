@@ -1,0 +1,47 @@
+asset_id: "char_alex_expr_04_v1"
+asset_type: "character_expression"
+expression_name: "determined"
+in_game_ref: "Alex.determined"
+file: "assets/characters/alex/expressions/alex_expr_04_v1.png"
+ssad_id: "SSAD-VN-AX-EXPR-04"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_alex_base_v1"
+    work_ref: "assets/characters/alex/alex_base_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+
+expression_spec:
+  brows: "firm, slightly lowered — not angry, set with intention"
+  eyes: "wide, direct, irises bright — looking at something beyond the frame"
+  mouth: "quiet set line, or slight downward press — resolve not grimace"
+  cheeks: "neutral to slight flush"
+  special: "halo at peak brightness; star freckle visible"
+  mood: "She has decided. Quiet intensity. 'I'm going to carry this.'"
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ASTRICA-0001"
+  resonance_tags:
+  - "resolve"
+  - "inner_light"
+  - "threshold_crossed"
+  - "celestial_purpose"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

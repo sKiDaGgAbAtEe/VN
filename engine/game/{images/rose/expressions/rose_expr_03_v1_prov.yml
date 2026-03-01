@@ -1,0 +1,49 @@
+asset_id: "char_rose_expr_03_v1"
+asset_type: "character_expression"
+expression_name: "smug"
+in_game_ref: "Rose.smug"
+file: "assets/characters/rose/expressions/rose_expr_03_v1.png"
+ssad_id: "SSAD-VN-ROSE-EXPR-03"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+  - role: "dark_linework"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+
+expression_spec:
+  brows: "one brow raised sharply, the other level"
+  eyes: "heavily lidded, sharp, self-satisfied"
+  mouth: "sharp asymmetric smirk, one corner pulled hard"
+  cheeks: "neutral"
+  special: "glasses catch extra glare at the raised brow side; classic gremlin energy"
+  mood: "Called it. I told you so and I will enjoy this."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags:
+  - "smug"
+  - "gremlin_energy"
+  - "called_it"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

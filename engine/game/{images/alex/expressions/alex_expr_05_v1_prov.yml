@@ -1,0 +1,46 @@
+asset_id: "char_alex_expr_05_v1"
+asset_type: "character_expression"
+expression_name: "sad"
+in_game_ref: "Alex.sad"
+file: "assets/characters/alex/expressions/alex_expr_05_v1.png"
+ssad_id: "SSAD-VN-AX-EXPR-05"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_alex_base_v1"
+    work_ref: "assets/characters/alex/alex_base_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+
+expression_spec:
+  brows: "raised slightly at inner corners — real anatomical sad shape"
+  eyes: "downcast, lids heavy, lashes lowered — no tears required"
+  mouth: "soft, slightly parted, not trembling — quiet and still"
+  cheeks: "neutral or very faint pink around nose"
+  special: "halo dim or barely visible; star freckle still present; weight is in eyes not drama"
+  mood: "She carries quietly. Grief is real but private. Not performed."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ASTRICA-0001"
+  resonance_tags:
+  - "quiet_grief"
+  - "inner_weight"
+  - "carrying_others"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
