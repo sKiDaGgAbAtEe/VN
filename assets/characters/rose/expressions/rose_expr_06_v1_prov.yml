@@ -1,0 +1,49 @@
+asset_id: "char_rose_expr_06_v1"
+asset_type: "character_expression"
+expression_name: "laughing"
+in_game_ref: "Rose.laughing"
+file: "assets/characters/rose/expressions/rose_expr_06_v1.png"
+ssad_id: "SSAD-VN-ROSE-EXPR-06"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+  - role: "dark_linework"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+
+expression_spec:
+  brows: "raised, relaxed, helpless with laughter"
+  eyes: "crinkled behind glasses, amber sparkling"
+  mouth: "open, head slightly tilted, genuine cackle energy"
+  cheeks: "full flush, real color"
+  special: "glasses may bounce with the laugh; this is the full gremlin laugh finally let loose"
+  mood: "The gremlin cackle. Finally released. Contagious."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags:
+  - "gremlin_laugh"
+  - "genuine_joy"
+  - "armor_off"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

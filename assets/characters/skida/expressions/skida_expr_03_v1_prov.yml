@@ -1,0 +1,46 @@
+asset_id: "char_skida_expr_03_v1"
+asset_type: "character_expression"
+expression_name: "focused"
+in_game_ref: "Skida.focused"
+file: "assets/characters/skida/expressions/skida_expr_03_v1.png"
+ssad_id: "SSAD-VN-SKIDA-EXPR-03"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_skida_base_v1"
+    work_ref: "assets/characters/skida/skida_base_v1.png"
+  - role: "portrait_structure"
+    source_type: "master_artist"
+    master_artist_id: "ma_sargent_001"
+
+expression_spec:
+  brows: "drawn slightly together — intent not angry"
+  eyes: "sharp, narrowed slightly, locked in"
+  mouth: "firm set line, jaw slightly tightened"
+  cheeks: "neutral"
+  special: "this reads as stillness not threat — he concentrates, he does not intimidate"
+  mood: "I am solving this. Locked in. Stillness not storm."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags:
+  - "focused"
+  - "problem_solving"
+  - "structural_support"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

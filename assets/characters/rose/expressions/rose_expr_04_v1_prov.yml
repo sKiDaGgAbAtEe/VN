@@ -1,0 +1,49 @@
+asset_id: "char_rose_expr_04_v1"
+asset_type: "character_expression"
+expression_name: "concerned"
+in_game_ref: "Rose.concerned"
+file: "assets/characters/rose/expressions/rose_expr_04_v1.png"
+ssad_id: "SSAD-VN-ROSE-EXPR-04"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+  - role: "dark_linework"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+
+expression_spec:
+  brows: "slightly drawn toward center, soft — not angry, professionally focused"
+  eyes: "softer than neutral, direct and present, slightly lowered"
+  mouth: "neutral or slightly pursed, attentive"
+  cheeks: "neutral"
+  special: "glasses sit straight; therapist face — this is not pity, it is full presence"
+  mood: "Tell me more. She is holding space. This is her professional gift."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags:
+  - "therapist_mode"
+  - "holding_space"
+  - "professional_care"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

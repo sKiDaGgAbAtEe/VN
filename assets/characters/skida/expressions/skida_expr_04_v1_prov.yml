@@ -1,0 +1,46 @@
+asset_id: "char_skida_expr_04_v1"
+asset_type: "character_expression"
+expression_name: "concerned"
+in_game_ref: "Skida.concerned"
+file: "assets/characters/skida/expressions/skida_expr_04_v1.png"
+ssad_id: "SSAD-VN-SKIDA-EXPR-04"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_skida_base_v1"
+    work_ref: "assets/characters/skida/skida_base_v1.png"
+  - role: "portrait_structure"
+    source_type: "master_artist"
+    master_artist_id: "ma_sargent_001"
+
+expression_spec:
+  brows: "raised slightly at inner corners — open and soft"
+  eyes: "softer and lower, attentive and careful"
+  mouth: "slightly tightened, mouth closed — holding space not fixing"
+  cheeks: "neutral"
+  special: "this is the holding-space face — present without projecting"
+  mood: "Someone he's holding space for is struggling. He sees it."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags:
+  - "holding_space"
+  - "empathy"
+  - "field_anchor"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

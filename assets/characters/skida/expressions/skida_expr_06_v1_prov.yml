@@ -1,0 +1,46 @@
+asset_id: "char_skida_expr_06_v1"
+asset_type: "character_expression"
+expression_name: "laughing"
+in_game_ref: "Skida.laughing"
+file: "assets/characters/skida/expressions/skida_expr_06_v1.png"
+ssad_id: "SSAD-VN-SKIDA-EXPR-06"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_reference_asset"
+    work_id: "char_skida_base_v1"
+    work_ref: "assets/characters/skida/skida_base_v1.png"
+  - role: "portrait_structure"
+    source_type: "master_artist"
+    master_artist_id: "ma_sargent_001"
+
+expression_spec:
+  brows: "raised fully, helpless with it"
+  eyes: "crinkled, blue sparkling, genuine"
+  mouth: "open, head slightly tilted — the kind that makes others laugh too"
+  cheeks: "light flush across cheeks"
+  special: "this should feel rare and genuine — the laugh that escapes the anchor"
+  mood: "The real one. The laugh that makes everyone around him laugh too."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags:
+  - "genuine_joy"
+  - "armor_off"
+  - "contagious_laugh"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null

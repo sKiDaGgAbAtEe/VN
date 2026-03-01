@@ -1,0 +1,49 @@
+asset_id: "char_rose_expr_05_v1"
+asset_type: "character_expression"
+expression_name: "sad"
+in_game_ref: "Rose.sad"
+file: "assets/characters/rose/expressions/rose_expr_05_v1.png"
+ssad_id: "SSAD-VN-ROSE-EXPR-05"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "face_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+  - role: "portrait_mood"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+  - role: "dark_linework"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+
+expression_spec:
+  brows: "drawn together slightly — the mask is off"
+  eyes: "downcast, amber dimmed, lids heavy"
+  mouth: "mouth pressed quietly, tight — trying to hold it together"
+  cheeks: "very faint, around nose"
+  special: "glasses may be slightly lowered or smudged — she forgot to fix them; this is rare and precious"
+  mood: "The rare moment the mask drops. The I'm fine that obviously isn't."
+
+soulstamp:
+  contributor: "sKiDa"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags:
+  - "mask_dropped"
+  - "rare_vulnerability"
+  - "quiet_grief"
+  sacred: false
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
