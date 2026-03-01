@@ -1,0 +1,104 @@
+asset_id: "char_rose_base_v1"
+asset_type: "character_sprite"
+in_game_ref: "Rose.base.neutral"
+file: "assets/characters/rose/rose_base_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools:
+    - "AI_image_generator"
+    - "digital_paint"
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "VN_scene_sprite_main"
+
+lineage:
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_title: "Rose – Self Portrait Bust"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+    influence_notes: >
+      Defines Rose's face, golden eyes, glasses, dark-to-blonde ombré hair,
+      red rose clip, black choker, and oversized sweater neckline. The full
+      body sprite extends this design downward while keeping these features intact.
+
+  - role: "structural_body_reference"
+    source_type: "internal_reference_asset"
+    work_id: "char_rose_body_base_v1"
+    work_title: "Rose Body Base v1"
+    work_ref: "assets/characters/rose/rose_body_base_v1.png"
+    influence_notes: >
+      Body proportions for this sprite are aligned with the neutral body mannequin:
+      4'10" Filipino adult woman, compact and sturdy build, subtle curves, grounded posture.
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+    work_title: "Girl portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_yumeji_001"
+    influence_notes: >
+      Guides the soft, introspective quality of Rose's expression.
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+    work_title: "Decorative black-and-white illustrations (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_beardsley_001"
+    influence_notes: >
+      Informs the dark, flowing contours of her clothing and hair, and the
+      sense of gothic elegance.
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_mucha_001"
+    work_title: "Art Nouveau posters and panels (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_mucha_001"
+    influence_notes: >
+      Provides conceptual basis for framing Rose as an icon in select CGs.
+
+transformations:
+  description: >
+    Full-body neutral Rose sprite extrapolated from her original bust portrait:
+    tiny goth/geek adult woman in an oversized sweater, visually reading as a
+    compact powerhouse rather than a child or pin-up.
+  steps:
+    - step: 1
+      summary: "Extended Rose's original bust portrait into a full-body sketch, keeping all accessories identical."
+    - step: 2
+      summary: "Defined proportions for 4'10\" adult: short, solid center of gravity, subtle curves, relaxed posture."
+    - step: 3
+      summary: "Designed lower half: oversized sweater hem at upper thigh, dark leggings, modest and practical."
+    - step: 4
+      summary: "Balanced shading to emphasize coziness and competence; no cleavage emphasis."
+    - step: 5
+      summary: "Final cleanup, aligned with Rose's original art, verified sprite reads as clearly adult."
+
+soulstamp:
+  id: "SSAD-VN-ROSE-0101"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags:
+    - "tiny_powerhouse"
+    - "goth_geek"
+    - "therapist_mom"
+    - "dark_humor"
+  sacred: false
+  intent_summary: >
+    This sprite is the baseline presence of Rose in the VN: a tiny, goth,
+    hyper-competent adult framed with respect and without infantilization or fetishization.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact Rose and VN creators for any external or commercial use."
+  usage_restrictions: >
+    This sprite should not be reframed as a child or used in sexualized contexts.
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: >
+    Once Rose Body Base v1 is finalized, confirm proportional alignment.

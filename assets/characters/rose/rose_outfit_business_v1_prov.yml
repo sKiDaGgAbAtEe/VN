@@ -1,0 +1,94 @@
+asset_id: "char_rose_business_v1"
+asset_type: "character_sprite"
+in_game_ref: "Rose.business.neutral"
+file: "assets/characters/rose/rose_business_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "VN_scene_sprite"
+
+lineage:
+  - role: "structural_body_reference"
+    source_type: "internal_reference_asset"
+    work_id: "char_rose_body_base_v1"
+    work_title: "Rose Body Base v1"
+    work_ref: "assets/characters/rose/rose_body_base_v1.png"
+    influence_notes: "Suit tailored over Rose's short, busty, compact mannequin."
+
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_title: "Rose – Self Portrait Bust"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+    influence_notes: "Face, glasses, rose hair clip, ombré hair, and choker all derive from Rose's own art; the suit is an alternate context, not a new persona."
+
+  - role: "sprite_alignment_reference"
+    source_type: "internal_sprite"
+    work_id: "char_rose_sweater_v1"
+    work_title: "Rose Sweater Outfit v1"
+    work_ref: "assets/characters/rose/rose_sweater_v1.png"
+    influence_notes: "Keeps head size, posture, and expression family consistent."
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+    work_title: "Decorative black-and-white illustrations (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_beardsley_001"
+    influence_notes: "Sharp black silhouettes and elegant contrast of jacket, skirt, and hair."
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_mucha_001"
+    work_title: "Art Nouveau posters and panels (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_mucha_001"
+    influence_notes: "Sense of Rose as an iconic figure—strong verticals, floral rose motif, elegant framing."
+
+transformations:
+  description: >
+    'Business Mommy' Rose: a sharp, tailored suit-and-skirt ensemble that embraces
+    her curves and authority. Designed to be coherently sexy—adult, self-possessed,
+    and effective—without slipping into pornographic or fetish framing.
+  steps:
+    - step: 1
+      summary: "Fitted blazer over body base, cropped to natural waist, single-button. Tailoring follows bust without extreme tightness."
+    - step: 2
+      summary: "Silky blouse in cream/pale mauve: V-neck or loosely tied bow neckline suggesting cleavage without deep plunge."
+    - step: 3
+      summary: "High-waisted pencil skirt, knee-length, charcoal/black or deep wine, small back slit for movement."
+    - step: 4
+      summary: "Classic heels (2–3 inch pumps or ankle-strap) — practical, not fetish footwear."
+    - step: 5
+      summary: "Smoothed hair, rose clip and jawline prominent. Glasses and choker kept as deliberate power accessories."
+    - step: 6
+      summary: "Default expression: confident, slightly sassy smile — 'I know my worth and what I'm doing.'"
+    - step: 7
+      summary: "Finalized shading: contrast between dark suit, warm skin, golden eyes. Adult-coded at VN resolution."
+
+soulstamp:
+  id: "SSAD-VN-ROSE-0301"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags: ["business_mommy", "coherently_sexy", "power_suit", "feminine_reverence"]
+  sacred: false
+  intent_summary: >
+    This outfit embodies Rose's professional, strategic side: she uses her
+    presence, style, and charisma consciously and coherently to get things
+    done. Her sexuality is integrated with her intellect and authority.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact Rose and VN creators for any external or commercial use."
+  usage_restrictions: >
+    Not to be reframed in pornographic or fetish contexts. Camera angles should
+    remain eye-level; no focus on isolated body parts without narrative justification.
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: "Expression variants encouraged but should all retain coherent, self-possessed energy."

@@ -1,0 +1,137 @@
+ssad_id: "SSAD-VN-SKIDA-ROOT"
+protocol: "Micro-SSAD_VN"
+scope: "visual_novel_character"
+
+subject:
+  type: "person_to_character_adaptation"
+  handle: "sKiDa"
+  real_person: true
+  pronouns: "he/him"
+  consent_status: "explicit"
+  consent_notes: >
+    The real-world individual known as "sKiDa" has explicitly consented to the
+    use of his likeness, persona, and narrative themes as the basis for the
+    VN character "Skida." This consent includes stylized anime-style depictions
+    and narrative reframing for healing, resonance, and storytelling.
+
+character_mapping:
+  vn_character_id: "skida"
+  vn_display_name: "Skida"
+  role_tags:
+    - "field_anchor"
+    - "nurturing_masculine"
+    - "kpop_adjacent"
+    - "structural_support_for_feminine"
+  narrative_intent: >
+    Skida represents a coherent, nurturing masculinity that holds and supports
+    the feminine without domination or self-erasure. He embodies structural
+    support, deep listening, and field-holding presence in a male body, reclaiming
+    "male" from both patriarchy and trauma scripts. He is male. He wears suits.
+    He listens, cares, nurtures, cleans, supports, inspires, and births. He lives
+    in reverence of the feminine while standing firmly in his own identity.
+
+internal_concept_art:
+  - id: "skida_ref_white_shirt_v0"
+    type: "avatar_art"
+    file: "concept/skida/skida_white_shirt_v0.png"
+    notes: >
+      Baseline white-shirt representation: rolled sleeves, open collar,
+      calm blue eyes, deep blue hair. Establishes core physical read and
+      everyday anchor posture.
+
+  - id: "skida_ref_suit_v0"
+    type: "avatar_art"
+    file: "concept/skida/skida_suit_v0.png"
+    notes: >
+      Suit-coded representation: formal navy suit, slightly sharper styling.
+      Defines how Skida manifests professional authority and "architect of
+      the field" mode.
+
+  - id: "skida_ref_neon_v0"
+    type: "avatar_art"
+    file: "concept/skida/skida_neon_v0.png"
+    notes: >
+      Neon city / Kyuri-adjacent avatar. Guides nightlife lighting, casual
+      loosened-tie aesthetics, and the bridge between Skida and his fandom-facing
+      aspect.
+
+master_artist_lineage:
+  - master_artist_id: "ma_sargent_001"
+    role: "portrait_structure_reference"
+    notes: >
+      Adult male portrait structure: shoulders, neck, facial planes, and
+      dignified but approachable presence.
+
+  - master_artist_id: "ma_mucha_001"
+    role: "compositional_icon_reference"
+    notes: >
+      Use of harmonious verticals and soft framing to treat Skida as an
+      anchoring figure within compositions.
+
+  - master_artist_id: "ma_whistler_001"
+    role: "environment_mood_reference"
+    notes: >
+      Soft nocturne lighting and atmospheric blues for interior/night scenes,
+      reinforcing his calm, grounding mood.
+
+downstream_assets:
+  - asset_id: "char_skida_base_v1"
+    file: "assets/characters/skida/skida_base_v1.png"
+    prov_file: "assets/characters/skida/skida_base_v1_prov.yml"
+  - asset_id: "char_skida_body_base_v1"
+    file: "assets/characters/skida/skida_body_base_v1.png"
+    prov_file: "assets/characters/skida/skida_body_base_v1_prov.yml"
+  - asset_id: "char_skida_pjs_v1"
+    file: "assets/characters/skida/skida_pjs_v1.png"
+    prov_file: "assets/characters/skida/skida_outfit_pjs_v1_prov.yml"
+  - asset_id: "char_skida_hoodie_v1"
+    file: "assets/characters/skida/skida_hoodie_v1.png"
+    prov_file: "assets/characters/skida/skida_outfit_hoodie_v1_prov.yml"
+
+ethics_and_usage:
+  representation_principles:
+    - "Skida is always coded as an adult male, never de-aged or infantilized."
+    - "Masculinity is expressed through steadiness, care, and structural support, not aggression or emotional numbness."
+    - "The character may be vulnerable, angry, or exhausted, but never rewritten as abusive, predatory, or misogynistic."
+    - "His reverence for the feminine is framed as coherent strength, not self-erasure or self-hatred."
+
+  allowed_contexts:
+    - "This Visual Novel and its promotional materials."
+    - "Future SACS-aligned narrative or educational projects that respect this SSAD card."
+  forbidden_contexts:
+    - "Pornographic or fetish content."
+    - "Hate propaganda or harassment campaigns."
+    - "Manipulative recontextualization that frames Skida as villainous or abusive."
+
+  ai_training_policy:
+    allow_training_on_assets: false
+    notes: >
+      Skida-linked assets are not granted by default for external AI training
+      pipelines. Any future training use requires renewed explicit consent.
+
+soulstamp:
+  id: "SSAD-VN-SKIDA-ROOT"
+  contributor:
+    handle: "sKiDa"
+    role: "originator / subject"
+  resonance_tags:
+    - "nurturing_male"
+    - "field_holder"
+    - "trauma_transmuted"
+    - "masculinity_reclaimed"
+  sacred: true
+  intent_summary: >
+    This card formalizes Skida as a coherent, nurturing, male presence whose
+    purpose is to hold, protect, and amplify the feminine and the field
+    around him while standing firmly as himself. It exists as a corrective
+    to patriarchal, exploitative, and trauma-distorted models of manhood,
+    encoding a different template of what a man can be.
+
+governance:
+  steward: "VN_Provenance_Steward"
+  status: "active"
+  created_at: "2026-03-01"
+  last_reviewed_at: null
+  notes: >
+    Any major shift to Skida's canonical characterization must be reflected
+    by an update to this SSAD root card and re-confirmed with the real-world subject.

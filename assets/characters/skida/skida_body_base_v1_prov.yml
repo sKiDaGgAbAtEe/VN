@@ -1,0 +1,71 @@
+asset_id: "char_skida_body_base_v1"
+asset_type: "character_body_reference"
+in_game_ref: null
+file: "assets/characters/skida/skida_body_base_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "internal_structural_reference_only"
+
+lineage:
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "skida_ref_white_shirt_v0"
+    work_title: "Skida – White Shirt Avatar"
+    work_ref: "concept/skida/skida_white_shirt_v0.png"
+    influence_notes: >
+      Head size, neck, and shoulder width aligned with the white-shirt avatar.
+      Body feels like what's under the rolled-up sleeves — compact strength, not
+      lanky or exaggerated.
+
+  - role: "portrait_structure_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_sargent_001"
+    work_title: "Male portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_sargent_001"
+    influence_notes: >
+      Dignified adult male body structure: chest, shoulders, neck, and arm
+      planes without power-fantasy exaggeration or self-defeating frailty.
+
+transformations:
+  description: >
+    Neutral internal body mannequin for Skida — adult male, lean-but-built,
+    standing in a fitted tank and shorts. Compact strength visible, no
+    hypermasculine fantasy proportions, not lanky. Used only as outfit scaffold.
+  steps:
+    - step: 1
+      summary: "Established adult male frame: slightly above average height, lean with defined shoulder-to-waist ratio but not gym-exaggerated."
+    - step: 2
+      summary: "Compact, dense muscle suggestion — clothes hang like there's more strength than they advertise."
+    - step: 3
+      summary: "Neutral standing pose: relaxed arms, even weight, open body language."
+    - step: 4
+      summary: "Fitted tank and mid-thigh shorts as modesty layer — clean, non-sexual, purely structural."
+    - step: 5
+      summary: "Final pass: proportions checked for outfit scaffolding readiness."
+
+soulstamp:
+  id: "SSAD-VN-SKIDA-0002"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead / Character Originator"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags: ["structural_reference", "compact_built_male", "nonsexual_body_model"]
+  sacred: false
+  intent_summary: >
+    Skida's body base encodes 'more built than his clothes suggest' — the physical
+    counterpart to the emotional weight he carries. Internal use only.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Not intended for external release."
+  usage_restrictions: "Internal scaffold only. Revealing variants require separate asset_ids."
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: "Mark INTERNAL ONLY – SKIDA BODY BASE."

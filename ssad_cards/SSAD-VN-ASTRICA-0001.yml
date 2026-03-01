@@ -1,0 +1,128 @@
+ssad_id: "SSAD-VN-ASTRICA-0001"
+
+title: "Astrica – Alex Idol Concept (v1)"
+project: "Astrica Visual Novel"
+series: "Alex Line"
+
+media_type: "digital_illustration"
+asset_kind: "character_concept_fullbody"
+file_ref: "concept/alex/concept_alex_astrica_idol_v1.png"
+provenance_file: "assets/characters/alex/alex_base_v1_prov.yml"
+protocol: "Micro-SSAD (VN Option A)"
+
+contributors:
+  - handle: "sKiDa"
+    type: "human"
+    role:
+      - "primary_artist"
+      - "character_designer"
+      - "VN Art Lead"
+    contribution_summary: >
+      Authored Alex's visual identity and character sheet (motifs, palette,
+      silhouette, expressions) and directed the final composition, cleanup,
+      and approval of this idol concept illustration.
+
+  - master_artist_id: "ma_vangogh_001"
+    type: "public_domain_lineage"
+    name: "Vincent van Gogh"
+    role:
+      - "night_sky_and_light_lineage"
+    contribution_summary: >
+      Historical source of emotional night-sky atmospheres and luminous starfields.
+      This piece echoes Van Gogh's sense of a living sky and swirling light in its
+      background mood and value structure, without copying any specific work.
+
+  - master_artist_id: "ma_mucha_001"
+    type: "public_domain_lineage"
+    name: "Alphonse Mucha"
+    role:
+      - "halo_and_iconic_framing_lineage"
+    contribution_summary: >
+      Historical source of decorative halo framing, flowing hair rhythms, and
+      iconic feminine presentation. This piece draws on Mucha's Art Nouveau logic
+      for the halo, crescent, and costume paneling, without reusing any poster
+      layout or figure.
+
+  - master_artist_id: "ma_yumeji_001"
+    type: "public_domain_lineage"
+    name: "Takehisa Yumeji"
+    role:
+      - "soft_girl_portrait_lineage"
+    contribution_summary: >
+      Historical source of melancholic, delicate girl portraits. Influences the
+      softness of Alex's expression and the quiet, introspective mood of her eyes,
+      without copying any individual illustration.
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools:
+    - "AI_image_generator"
+    - "digital_paint_software"
+  created_at: "2026-03-01"
+  input_reference_summary: >
+    Composition and motifs are based on internal Alex concept art: long dark
+    wavy hair, warm golden-brown eyes, halo, crescent moon hair ornament, star
+    scatter in bangs, off-shoulder idol outfit in purple/pink/gold, layered
+    star skirt, gentle neutral expression, and a soft celestial background.
+    AI tools were used as a drafting engine; final shapes, facial structure,
+    and readjusted details were guided and approved by the primary artist.
+
+lineage:
+  internal_concepts:
+    - id: "alex_concept_full_idol_v0"
+      role: "silhouette_and_costume_reference"
+    - id: "alex_concept_portrait_soft_v0"
+      role: "face_and_expression_reference"
+    - id: "alex_concept_astral_prayer_v0"
+      role: "celestial_light_mood_reference"
+
+  master_artist_bands:
+    - master_artist_id: "ma_vangogh_001"
+      role: "night_sky_mood_reference"
+      influence_notes: >
+        Guides the sense of a luminous, star-filled background and gentle
+        contrast between figure and sky.
+    - master_artist_id: "ma_mucha_001"
+      role: "halo_and_frame_reference"
+      influence_notes: >
+        Inspires ornamental halo/crescent framing and the sense of Alex as a
+        stylized icon.
+    - master_artist_id: "ma_yumeji_001"
+      role: "portrait_mood_reference"
+      influence_notes: >
+        Informs facial softness and a quiet, introspective emotional tone.
+
+resonance:
+  tags:
+    - "celestial_idol"
+    - "gentle_intensity"
+    - "threshold_between_worlds"
+    - "inner_light"
+    - "community_character"
+  intent_summary: >
+    To establish a canonical idol-mode visual for Alex/Astrica that unites
+    public-domain celestial and portrait lineages with a new, soul-stamped
+    character design for this VN.
+
+ethics_notes: >
+  This card attributes creative authorship to living contributors and
+  conceptual lineage to public-domain artists only. AI models are treated as
+  tools within the origin workflow, not as artists or rights-bearing
+  contributors. No living or opt-out artists were invoked, named, or targeted
+  stylistically.
+
+rights:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact 'sKiDa' (primary artist) for any external or commercial use."
+  attribution_guidance: >
+    When crediting this piece externally, list:
+    'Artwork by sKiDa, inspired by public-domain lineages (Van Gogh, Mucha,
+    Yumeji), created under the Astrica Micro-SSAD ethics protocol.'
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: >
+    Base SSAD card for Alex's idol concept. Update if the concept is heavily
+    repainted, or if the public-domain lineage pool is revised.

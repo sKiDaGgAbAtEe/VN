@@ -1,0 +1,102 @@
+asset_id: "char_skida_base_v1"
+asset_type: "character_sprite"
+in_game_ref: "Skida.base.neutral"
+file: "assets/characters/skida/skida_base_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "VN_scene_sprite_main"
+
+lineage:
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "skida_ref_white_shirt_v0"
+    work_title: "Skida – White Shirt Avatar"
+    work_ref: "concept/skida/skida_white_shirt_v0.png"
+    influence_notes: >
+      Establishes Skida's baseline appearance: lean adult male body, rolled
+      sleeves, open collar, calm blue eyes, and deep blue hair. This is the
+      core 'anchor in a room' visual.
+
+  - role: "secondary_concept"
+    source_type: "internal_concept_art"
+    work_id: "skida_ref_suit_v0"
+    work_title: "Skida – Suit Avatar"
+    work_ref: "concept/skida/skida_suit_v0.png"
+    influence_notes: "Provides formal variant reference for jawline, posture, and authority framing."
+
+  - role: "mood_reference"
+    source_type: "internal_concept_art"
+    work_id: "skida_ref_neon_v0"
+    work_title: "Skida – Neon City Avatar"
+    work_ref: "concept/skida/skida_neon_v0.png"
+    influence_notes: "Captures Kyuri-adjacent nightlife mood; guides color harmonies for casual scenes."
+
+  - role: "portrait_structure_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_sargent_001"
+    work_title: "Male portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_sargent_001"
+    influence_notes: "Adult male portrait structure: dignified but approachable presence."
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_mucha_001"
+    work_title: "Art Nouveau posters and panels (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_mucha_001"
+    influence_notes: "Anchoring figure within compositions—clean verticals, harmonious flow."
+
+  - role: "environment_mood_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_whistler_001"
+    work_title: "Nocturnes / city and harbor scenes (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_whistler_001"
+    influence_notes: "Soft atmospheric lighting and muted blues in nighttime or interior scenes."
+
+transformations:
+  description: >
+    Neutral full-body Skida sprite in everyday rolled-sleeve shirt mode: a lean,
+    adult, blue-haired man whose posture signals structural support—nurturing,
+    attentive, and quietly intense.
+  steps:
+    - step: 1
+      summary: "Combined three existing avatars into unified facial design: adult jawline, straight nose, soft blue eyes, layered deep-blue hair with side-swept fringe."
+    - step: 2
+      summary: "Defined proportions: slightly above-average height, lean/wiry, relaxed shoulders, natural V without exaggerated bulk."
+    - step: 3
+      summary: "Baseline outfit: light shirt with sleeves rolled to mid-forearm, top button undone, subtle wrinkles suggesting constant work. Dark trousers."
+    - step: 4
+      summary: "Established posture: feet shoulder-width apart, weight slightly forward, shoulders open. 'I'm here, I'm listening, I've got this.'"
+    - step: 5
+      summary: "Expression: calm, present neutrality. Brows relaxed, eyes attentive, mouth at slight line that easily lifts."
+    - step: 6
+      summary: "Final shading: hair sheen and shirt folds aligned with internal refs, blue hair/eyes saturated but not cartoonish."
+
+soulstamp:
+  id: "SSAD-VN-SKIDA-0101"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead / Character Originator"
+  lineage_ref: "SSAD-VN-SKIDA-ROOT"
+  resonance_tags: ["nurturing_masculine", "field_anchor", "rolled_sleeve_support_mode", "kyuri_bridge"]
+  sacred: false
+  intent_summary: >
+    This sprite establishes Skida as a male anchor-character who embodies care,
+    structural support, and reverence for the feminine without abandoning his
+    masculinity. He stands present, not performative.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact creators for any external or commercial use."
+  usage_restrictions: >
+    Not to be repurposed in ways that frame Skida as abusive, predatory, or
+    hyper-masculinist caricature.
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: "Suit and neon variants should be derived from this base for consistency."

@@ -1,0 +1,105 @@
+asset_id: "char_alex_body_base_v1"
+asset_type: "character_body_reference"
+in_game_ref: null
+file: "assets/characters/alex/alex_body_base_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools:
+    - "AI_image_generator"
+    - "digital_paint"
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "internal_structural_reference_only"
+
+lineage:
+  - role: "character_silhouette_reference"
+    source_type: "internal_concept_art"
+    work_id: "alex_concept_full_idol_v0"
+    work_title: "Alex – Full Idol Outfit Concept"
+    work_ref: "concept/alex/alex_full_idol_v0.png"
+    influence_notes: >
+      Body proportions calibrated so the idol outfit hangs naturally: bell-shaped
+      silhouette, clear but moderate bust, gentle waist, and slightly wider hips.
+
+  - role: "expression_and_head_proportion_reference"
+    source_type: "internal_concept_art"
+    work_id: "alex_concept_portrait_soft_v0"
+    work_title: "Alex – Soft Portrait"
+    work_ref: "concept/alex/alex_portrait_soft_v0.png"
+    influence_notes: >
+      Head size, neck length, and facial placement aligned with Alex's canonical
+      portrait to ensure all outfits and sprites sit correctly on the same head.
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+    work_title: "Girl portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_yumeji_001"
+    influence_notes: >
+      Informing a soft, modest, non-sexual feminine body presence: subtle curves,
+      relaxed posture, and quiet emotional tone, without copying any specific pose
+      or composition.
+
+transformations:
+  description: >
+    Neutral, modest base body mannequin for Alex, used exclusively as an internal
+    reference for proportions, anatomy, and outfit placement. Designed to be
+    attractive and harmonious while clearly non-nude and non-sexual.
+  steps:
+    - step: 1
+      summary: >
+        Generated a standing female mannequin in a neutral, relaxed pose with
+        simple bandeau top and mid-thigh shorts, no explicit or erotic framing.
+    - step: 2
+      summary: >
+        Adjusted overall proportions to ~6.5–7 heads tall, with slightly narrower
+        shoulders than hips, moderate bust, gentle waist, and soft athletic legs.
+    - step: 3
+      summary: >
+        Refined limb lengths and hand size so fingers end around mid-thigh in a
+        relaxed arm position, avoiding exaggerated or stylized distortion.
+    - step: 4
+      summary: >
+        Softened shading and contour lines to emphasize healthy, natural curves,
+        not hypersexual features; ensured top and shorts remain opaque and simple.
+    - step: 5
+      summary: >
+        Final cleanup and value-balancing for clear use as a template under
+        future outfit layers; explicitly tagged as internal reference not to be
+        used as a standalone VN sprite.
+
+soulstamp:
+  id: "SSAD-VN-AX-0002"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead"
+  lineage_ref: "SSAD-VN-ASTRICA-0001"
+  resonance_tags:
+    - "structural_reference"
+    - "nonsexual_body_model"
+    - "consistent_proportions"
+    - "foundation_for_outfits"
+  sacred: false
+  intent_summary: >
+    This base body exists to give Alex a consistent, respectful physical frame
+    for all outfits and CGs. It is intentionally modest, non-nude, and
+    non-sexual, serving as an internal tool for visual coherence rather than
+    a fanservice image.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Not intended for external release. Contact creators if needed."
+  usage_restrictions: >
+    This asset is approved only for internal use as a structural mannequin under
+    costume and lighting layers. It is not to be used as a promotional image,
+    standalone CG, or fetishized figure.
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: >
+    Mark clearly in asset management tools as 'INTERNAL ONLY – BODY BASE'.
+    If any variant introduces more revealing clothing or posing, it must use a
+    separate asset_id and undergo independent ethical review.

@@ -1,0 +1,74 @@
+asset_id: "char_rose_sweater_v1"
+asset_type: "character_sprite"
+in_game_ref: "Rose.sweater.neutral"
+file: "assets/characters/rose/rose_sweater_v1.png"
+
+origin:
+  mode: "generated_then_hand_refined"
+  tools: ["AI_image_generator", "digital_paint"]
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+  usage_context: "VN_scene_sprite_main"
+
+lineage:
+  - role: "structural_body_reference"
+    source_type: "internal_reference_asset"
+    work_id: "char_rose_body_base_v1"
+    work_title: "Rose Body Base v1"
+    work_ref: "assets/characters/rose/rose_body_base_v1.png"
+    influence_notes: "Sweater silhouette drawn over mannequin; short, busty, compact proportions stay consistent."
+
+  - role: "primary_visual_canon"
+    source_type: "internal_concept_art"
+    work_id: "rose_core_concept_v1"
+    work_title: "Rose – Self Portrait Bust"
+    work_ref: "concept/rose/rose_core_concept_v1.png"
+    influence_notes: "Face, glasses, rose hair clip, choker, hair color/shape, and sweater neckline kept as close as possible to Rose's own illustration."
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+    work_title: "Girl portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_yumeji_001"
+    influence_notes: "Soft, introspective portrait mood."
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_beardsley_001"
+    work_title: "Decorative black-and-white illustrations (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_beardsley_001"
+    influence_notes: "Dark, flowing black shapes in hair and fabric folds."
+
+transformations:
+  description: "Rose's default oversized sweater outfit: goth geek therapist-mom mode."
+  steps:
+    - step: 1
+      summary: "Blocked in oversized black/charcoal sweater, wide neckline, long sleeves, hem at upper thigh."
+    - step: 2
+      summary: "Paired with dark leggings/skinny jeans and simple shoes."
+    - step: 3
+      summary: "Allowed sweater to follow natural bust enough to sense she's bustier than Alex, without clinging."
+    - step: 4
+      summary: "Reapplied key markers: golden eyes behind glasses, red rose clip, black choker, ombré hair."
+    - step: 5
+      summary: "Tuned expression to small knowing smirk; balanced for VN resolution."
+
+soulstamp:
+  id: "SSAD-VN-ROSE-0102"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead"
+  lineage_ref: "SSAD-VN-ROSE-0001"
+  resonance_tags: ["oversized_sweater", "goth_geek", "therapist_mode", "tiny_powerhouse"]
+  sacred: false
+  intent_summary: "Rose's baseline presence: small, cozy, visibly adult and competent. Centers her eyes, voice, and attitude."
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact Rose and VN creators for external or commercial use."
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: "Alternate sweater graphics should be created as separate assets with same ethical frame."

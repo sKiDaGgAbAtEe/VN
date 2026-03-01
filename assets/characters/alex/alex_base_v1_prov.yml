@@ -1,0 +1,131 @@
+asset_id: "char_alex_base_v1"
+asset_type: "character_sprite"
+in_game_ref: "Alex.base.neutral"
+file: "assets/characters/alex/alex_base_v1.png"
+
+origin:
+  mode: "generated"
+  tools:
+    - "AI_image_generator"
+    - "digital_paint"
+  created_by: "sKiDa"
+  created_at: "2026-03-01"
+
+lineage:
+  - role: "internal_style_foundation"
+    source_type: "internal_concept_art"
+    work_id: "alex_concept_full_idol_v0"
+    work_title: "Alex – Full Idol Outfit Concept"
+    work_ref: "concept/alex/alex_full_idol_v0.png"
+    influence_notes: >
+      Established the bell-shaped silhouette, off-shoulder bodice, layered star skirt,
+      and core purple/pink/gold palette.
+
+  - role: "internal_face_focus"
+    source_type: "internal_concept_art"
+    work_id: "alex_concept_portrait_soft_v0"
+    work_title: "Alex – Soft Portrait"
+    work_ref: "concept/alex/alex_portrait_soft_v0.png"
+    influence_notes: >
+      Locked in Alex's facial proportions: warm brown-gold eyes, small nose, soft mouth,
+      and star-like freckles under one eye. Used as the main reference for neutral expression.
+
+  - role: "internal_astral_mood"
+    source_type: "internal_concept_art"
+    work_id: "alex_concept_astral_prayer_v0"
+    work_title: "Alex – Astral Prayer Fairy"
+    work_ref: "concept/alex/alex_prayer_fairy_v0.png"
+    influence_notes: >
+      Informed the inner-light motif (hands cupping light), galaxy-backed lighting,
+      and the idea that her halo/moon/stars glow as emotional emphasis.
+
+  - role: "internal_cg_edge_context"
+    source_type: "internal_concept_art"
+    work_id: "alex_concept_bedroom_v0"
+    work_title: "Alex – Bedroom Vulnerable Pose"
+    work_ref: "concept/alex/alex_bedroom_v0.png"
+    influence_notes: >
+      Serves as a cautionary reference for limits on fanservice: informs body
+      proportions and vulnerability cues while guiding a more balanced, non-exploitative
+      baseline sprite.
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_vangogh_001"
+    work_title: "Night-sky nocturnes (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_vangogh_001"
+    influence_notes: >
+      Guides the feeling of luminous, living starfields and gentle value contrast
+      used in some background and rim-light decisions; no composition copied.
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_mucha_001"
+    work_title: "Art Nouveau posters and panels (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_mucha_001"
+    influence_notes: >
+      Inspires halo framing, decorative costume paneling, and the icon-like
+      presentation of Alex as a celestial idol.
+
+  - role: "style_reference"
+    source_type: "master_artist"
+    master_artist_id: "ma_yumeji_001"
+    work_title: "Girl portraits (general corpus)"
+    work_ref: "see provenance/master_artists.yml#ma_yumeji_001"
+    influence_notes: >
+      Informs facial softness and the quiet, introspective mood in Alex's neutral
+      expression.
+
+transformations:
+  description: >
+    Alex Base Sprite v1 is a neutral, front-facing character sprite in idol-stage outfit,
+    built from internal Alex concepts and refined by hand to match her canonical character sheet.
+  steps:
+    - step: 1
+      summary: >
+        Generated a base full-body anime-style girl sprite with halo, crescent moon hairpiece,
+        and layered idol skirt, using internal Alex concepts as prompt/guide.
+    - step: 2
+      summary: >
+        Adjusted body proportions to emphasize a soft, bell-shaped silhouette: small stature,
+        gentle curves, defined but not exaggerated bust, and clear waistline.
+    - step: 3
+      summary: >
+        Redrew facial features to match Alex's canon: warm brown-gold eyes, star-freckle detail,
+        soft smile, and slightly shy but present gaze.
+    - step: 4
+      summary: >
+        Refined outfit details: off-shoulder bodice with crossed straps, purple/pink/gold palette,
+        star appliqués on skirt, and gold trim.
+    - step: 5
+      summary: >
+        Final polish pass: cleaned lineart, unified shading and highlights, added subtle inner glow
+        around hair stars and halo, and balanced values for VN readability.
+
+soulstamp:
+  id: "SSAD-VN-AX-0001"
+  contributor:
+    handle: "sKiDa"
+    role: "VN Art Lead"
+  lineage_ref: "SSAD-VN-ASTRICA-0001"
+  resonance_tags:
+    - "community_character"
+    - "celestial_idol"
+    - "gentle_intensity"
+    - "threshold_between_worlds"
+    - "inner_light"
+  sacred: false
+  intent_summary: >
+    Baseline representation of Alex as she appears to the player most often: a star-touched,
+    soft-spoken idol who carries others' wishes while learning to voice her own.
+
+license:
+  project_license: "VN_INTERNAL_USE_ONLY"
+  reuse_policy: "Contact creators for external use outside this VN project."
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: >
+    Lineage linked to SSAD card SSAD-VN-ASTRICA-0001.

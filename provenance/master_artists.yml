@@ -1,0 +1,137 @@
+- id: ma_vangogh_001
+  name: "Vincent van Gogh"
+  life_dates: "1853–1890"
+  domain_status: "public_domain"
+  reference_source: "Van Gogh Museum / various PD digital collections"
+  style_tags: ["expressionist", "night_sky", "emotional_brushwork"]
+  suggested_use: "Starry skies, swirling light, emotional color transitions."
+  notes: >
+    Use selectively as reference for the feeling of a living sky and the way light
+    can seem to move. Echo rhythm of strokes and value contrast, not composition.
+    Ideal for astral/rich night backgrounds behind Alex.
+
+- id: ma_mucha_001
+  name: "Alphonse Mucha"
+  life_dates: "1860–1939"
+  domain_status: "public_domain"
+  reference_source: "Public-domain Art Nouveau posters and panels"
+  style_tags: ["art_nouveau", "decorative_frames", "feminine_iconography"]
+  suggested_use: "Halo framing, flowing hair shapes, elegant costume paneling."
+  notes: >
+    Perfect for Alex's idol/saint-like presentation: ornamental halos, panel-like
+    framing, and flowing hair/cloth patterns. Use for composition of posters,
+    menus, and UI elements that present Alex as an icon.
+
+- id: ma_yumeji_001
+  name: "Takehisa Yumeji"
+  life_dates: "1884–1934"
+  domain_status: "public_domain"
+  reference_source: "Japanese Taishō-era illustration archives"
+  style_tags: ["melancholic", "delicate_line", "girl_portraits"]
+  suggested_use: "Facial softness, quiet emotion, posture of introspective girls."
+  notes: >
+    Reference for Alex's softer, everyday and vulnerable modes. Yumeji's girls
+    carry a quiet, melancholic atmosphere that fits Alex's threshold scenes
+    (bedroom talks, late-night reflection).
+
+- id: ma_nielsen_001
+  name: "Kay Nielsen"
+  life_dates: "1886–1957"
+  domain_status: "public_domain"
+  reference_source: "Illustrations for fairy-tale books in the public domain"
+  style_tags: ["fairy_tale", "ornate_silhouette", "astral_mood"]
+  suggested_use: "Fairy/ritual CGs: wings, cloaks, and cosmic backgrounds."
+  notes: >
+    Excellent for Alex's astral/ritual mode: stylized silhouettes, glowing
+    magical atmospheres, and fairy-tale staging. Use for CG composition and
+    cloak/wing ideas rather than everyday sprite design.
+
+- id: ma_whistler_001
+  name: "James McNeill Whistler"
+  life_dates: "1834–1903"
+  domain_status: "public_domain"
+  reference_source: "Nocturnes and other PD works in museum collections"
+  style_tags: ["nocturne", "muted_palette", "atmospheric"]
+  suggested_use: "Subtle night palettes and soft atmospheric depth."
+  notes: >
+    Reference for quieter nighttime cityscapes or bedroom-window scenes where
+    Alex is lit gently against a dark, simplified background. Guides how to keep
+    scenes moody without losing readability.
+
+- id: ma_chagall_001
+  name: "Marc Chagall"
+  life_dates: "1887–1985"
+  domain_status: "public_domain"
+  reference_source: "Early works and stained-glass style pieces in public domain"
+  style_tags: ["dreamlike", "floating_figures", "symbolic_color"]
+  suggested_use: "Dream sequences where Alex or others float in a symbolic space."
+  notes: >
+    Chagall's floating figures and strong symbolic color blocks work well for
+    dream/vision CGs. Use sparingly, more for emotional composition and feeling
+    than for literal palette.
+
+- id: ma_ukiyoe_001
+  name: "Ukiyo-e Lineage – Representative Masters"
+  life_dates: "18th–19th centuries"
+  domain_status: "public_domain"
+  reference_source: "Composite reference: Hokusai, Hiroshige, and peers"
+  style_tags: ["clean_line", "flat_color", "patterned_composition"]
+  suggested_use: "Hair flow, cloth shapes, and simplified flat-color treatments."
+  notes: >
+    Treat this as a composite style band for studying flowing lines, pattern use,
+    and simplified color blocking. Supports keeping sprites clean and readable
+    in VN resolution. Do not copy specific prints; echo structural logic.
+
+- master_artist_id: "ma_beardsley_001"
+  name: "Aubrey Beardsley"
+  type: "illustrator"
+  era: "late_19th_century"
+  life_dates: "1872–1898"
+  region: "United_Kingdom"
+  primary_domains:
+    - "book_illustration"
+    - "decorative_graphic_art"
+    - "poster_and_magazine_design"
+  signature_traits:
+    - "high_contrast_black_and_white"
+    - "ornate_decorative_borders"
+    - "flat_inked_black_shapes"
+    - "elongated_figures"
+    - "finely_detailed_hair_and_fabric"
+    - "gothic_and_decadent_tones"
+    - "asymmetrical_compositions"
+  vn_reference_scope:
+    description: >
+      Used as a public-domain lineage for dark decorative linework and gothic
+      elegance—especially for Rose-related outfits, roses, and frame motifs.
+    recommended_uses:
+      - "gothic_frame_elements_around_CGs"
+      - "rose_and_vine_border_motifs"
+      - "decorative_black_shapes_in_backgrounds"
+      - "ornamental_accents_on_clothing_and_UI"
+    avoid:
+      - "direct_tracing_or_redraw_of_specific_illustrations"
+      - "copying_unique_character_poses_or_silhouettes"
+      - "lifting_entire_compositions_or_page_layouts"
+  ethical_notes: >
+    Beardsley's works are in the public domain. Within the Micro-SSAD VN
+    protocol, this lineage is treated as a historical style reference only.
+  tags:
+    - "public_domain"
+    - "gothic"
+    - "decorative"
+    - "black_and_white"
+    - "rose_lineage"
+
+- id: ma_sargent_001
+  name: "John Singer Sargent"
+  life_dates: "1856–1925"
+  domain_status: "public_domain"
+  reference_source: "Museum collections / PD portrait archives"
+  style_tags: ["portrait", "male_figure", "confident_presence", "dignified"]
+  suggested_use: "Adult male portrait structure: shoulders, neck, facial planes, relaxed authority."
+  notes: >
+    Informs adult male anatomy and proportions for Skida — chest, shoulders,
+    neck, and arm structure — without copying any specific pose or figure.
+    Guides how to frame a man as a grounded, dignified presence rather than
+    a power fantasy or fragile figure.

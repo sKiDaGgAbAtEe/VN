@@ -1,0 +1,132 @@
+ssad_id: "SSAD-VN-ROSE-0001"
+
+title: "Rose – Core Concept Portrait (Artist Original)"
+project: "Astrica Visual Novel"
+series: "Rose Line"
+
+media_type: "digital_illustration"
+asset_kind: "character_concept_bust"
+file_ref: "concept/rose/rose_core_concept_v1.png"
+provenance_file: null
+protocol: "Micro-SSAD (VN Option A)"
+
+contributors:
+  - handle: "Rose"
+    type: "human"
+    role:
+      - "primary_artist"
+      - "character_originator"
+    contribution_summary: >
+      Created the original digital illustration that defines Rose's canonical
+      face, hair, glasses, rose clip, choker, and overall goth/geek aesthetic.
+      This work predates the VN and was made as personal art; Rose has
+      explicitly granted permission for it to be used as internal concept art
+      and stylistic reference for the visual novel.
+
+  - handle: "sKiDa"
+    type: "human"
+    role:
+      - "VN Art Lead"
+      - "provenance_steward"
+    contribution_summary: >
+      Formalized Rose's design into a VN character sheet, set the ethical and
+      stylistic constraints for derivatives, and integrated public-domain
+      lineage references for future sprites and CGs.
+
+origin:
+  mode: "hand_drawn_digital"
+  tools:
+    - "digital_paint_software"
+  created_by: "Rose"
+  created_at: "unknown_pre_VN"
+  input_reference_summary: >
+    Purely original digital character portrait by Rose, not derived from
+    third-party IP. The piece established Rose's black glasses, golden eyes,
+    dark-to-blonde ombré hair, red rose hair clip, black choker, and soft
+    goth sweater silhouette. No AI tools were used in the original work.
+
+permissions:
+  artist_grant:
+    granted_by: "Rose"
+    scope:
+      - "internal_concept_art"
+      - "VN_sprite_and_CG_reference"
+    conditions: >
+      Use is permitted within the Astrica VN project and related non-commercial
+      materials, provided Rose is credited as the original artist. Any
+      commercial or external reuse beyond the VN requires explicit further
+      consent from Rose.
+    proof_note: >
+      Permission was given directly by Rose in private communication with
+      the VN team; details retained off-chain for privacy.
+
+lineage:
+  internal_concepts:
+    - id: "rose_core_concept_v1"
+      role: "primary_visual_canon"
+      work_title: "Rose – Self Portrait Bust"
+      work_ref: "concept/rose/rose_core_concept_v1.png"
+      influence_notes: >
+        Serves as the definitive template for Rose's face, hair, glasses,
+        rose clip, choker, and overall color palette. All VN sprites, body
+        bases, and outfits for Rose must remain recognizably derived from
+        this design.
+
+  master_artist_bands:
+    - master_artist_id: "ma_yumeji_001"
+      role: "portrait_mood_reference"
+      influence_notes: >
+        Provides a historical lineage for gentle, melancholic girl portraits
+        and introspective gazes.
+
+    - master_artist_id: "ma_beardsley_001"
+      role: "dark_decorative_lineage"
+      influence_notes: >
+        Used conceptually for dark, flowing linework, ornamental black
+        shapes, and gothic elegance in Rose's special-event outfits and CG
+        framing.
+
+    - master_artist_id: "ma_mucha_001"
+      role: "iconic_feminine_framing"
+      influence_notes: >
+        Offers a public-domain precedent for framing a woman as an icon:
+        halo-like decorative elements, floral motifs (roses), and flowing
+        hair.
+
+resonance:
+  tags:
+    - "tiny_powerhouse"
+    - "goth_geek"
+    - "therapist_mom"
+    - "dark_humor"
+    - "rose_motif"
+  intent_summary: >
+    This card anchors Rose's visual and symbolic identity in the VN. Her own
+    artwork is treated as sacred canon and the primary source of truth for
+    her appearance.
+
+ethics_notes: >
+  Rose's original digital illustration is the foundational asset for this
+  character and is fully credited to her. All derivative VN assets will treat
+  Rose's work as internal_concept_art with explicit permission, cite only
+  public-domain style lineages, and clearly document when AI tools are used.
+
+rights:
+  project_license: "VN_INTERNAL_USE_ONLY_FOR_DERIVATIVES"
+  reuse_policy: >
+    Rose retains copyright over the original illustration. VN derivatives
+    may be used within the Astrica VN project under internal agreements.
+    Any external or commercial reuse requires Rose's consent.
+  attribution_guidance: >
+    When crediting this origin art externally, use:
+    'Original character portrait of Rose by Rose (artist), used with
+    permission as concept art for the Astrica Visual Novel under the
+    Micro-SSAD ethics protocol.'
+
+review:
+  steward: "VN_Provenance_Steward"
+  status: "draft"
+  reviewed_at: null
+  notes: >
+    This is the root SSAD card for all Rose-related assets. Future files such
+    as rose_base_v1_prov.yml should reference this card via soulstamp.lineage_ref.
